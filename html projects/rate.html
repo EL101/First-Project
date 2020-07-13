@@ -3,32 +3,21 @@
 <head>
 <title>Ratings</title>
 <style>
-body {
-    background-color: wheat;
-    margin-left: 50px;
-   margin-right: 50px;
-}
-strong {
-    color: deepskyblue;
-}
-p {
-    color: dodgerblue;
-    font-family: Helvetica;
-}
 </style>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-<p>
-<h3 style="font-family: Helvetica; color:mediumblue;">Rate my website</h3>
-<a href="index.html" style="font-family: Helvetica; color: darkcyan;">Home</a>
-<a href="qanda.html" style="font-family: Helvetica; color: darkcyan;">Q&A Section!</a>
-<p><strong>Scale it on a factor of <em>"Go back to kindergarten, bud"</em> to <em>"You are ready to go to MIT"</em></strong>
+<body id="body">
+<div id="para">
+<h3 id="head3">Rate my website</h3>
+<a href="index.html" id="link">Home</a>
+<a href="q-and-a.html" id="link">Q&A Section!</a>
+<p><strong id="strong">Scale it on a factor of <em>"Go back to kindergarten, bud"</em> to <em>"You are ready to go to MIT"</em></strong>
 <br>
 <br>
 <em>Go back to kindergarten, bud</em><input type="range"><em>You are ready to go to MIT</em>
 <br>
 <br>
-<strong>Also, please also fill out this survey while you're at it</strong>
+<strong id="strong">Also, please also fill out this survey while you're at it</strong>
 <br>
 <br>
 <em>I think that you can go to MIT</em>
@@ -45,9 +34,10 @@ p {
 <input type="radio" name="nope">I look forward to seeing you fail
 <br>
 <br>
-<strong>Give me some feedback</strong>
+<strong id="strong">Give me some feedback</strong>
 <br>
-<input type="text" placeholder="Feedback" style="width: 500px; border-radius: 10px; border: solid red;">
+<input type="text" placeholder="Feedback" id="feedback">
 </p>
+</div>
 </body>
 </html>
