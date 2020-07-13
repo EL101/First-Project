@@ -1,0 +1,53 @@
+#body {
+    background-color:wheat;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.GoAway {
+    color: dodgerblue; 
+    font-family: Helvetica; 
+    font-weight: bold;
+}
+#para {
+    font-family: Helvetica;
+    color:dodgerblue;
+}
+#head {
+    font-family: Helvetica;
+    color:deepskyblue;
+}
+#link {
+    font-family: Helvetica;
+    color:darkcyan;
+}
+#list {
+    font-family: Helvetica;
+    color: dodgerblue;
+}
+#Welcome {
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(27, 197, 35);
+}
+#thanks {
+    font-weight: bold; 
+    font-size: 90px; 
+    color: red;
+    text-align: center;
+}
+#head2 {
+    font-family: Helvetica; 
+    color:royalblue;
+}
+#strong {
+    color: deepskyblue;
+}
+#head3 {
+    font-family: Helvetica; 
+    color:mediumblue;
+}
+#feedback {
+    width: 500px; 
+    border-radius: 10px; 
+    border: solid red;
+}
